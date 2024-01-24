@@ -1,0 +1,317 @@
+
+/* page1 box start */
+
+body {
+  word-break: keep-all;
+}
+
+#page1 {}
+
+#page1 #main {
+  margin: 0 auto;
+}
+#page1 #main .main-box {
+  height: 545px;
+  overflow: hidden;
+  position: relative;
+}
+#page1 #main .main-box > p {
+  position: absolute;
+  left: 26%;
+  top: 200px;
+  z-index: 99;
+  color: #fff;
+}
+#page1 #main .main-box .background {}
+#page1 #main .main-box .background img {
+  background-size: cover;
+  display: block;
+  position: absolute;
+  left: -90px;
+  top: -350px;
+}
+#page1 #main .main-box .box {
+  position: absolute;
+  max-width: 1280px;
+  top: 210px;
+  left: calc(50% - 96px);
+}
+#page1 #main .main-box .box > b {
+  display: block;
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 112px;
+}
+
+/* page1 box end */
+
+
+#page1 #main .article {
+  box-shadow : 0 0 30px #cecece;
+}
+#page1 #main .article .article-box {
+  width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+#page1 #main .article .article-box ul {
+  display: flex;
+  justify-content: space-between;
+
+}
+#page1 #main .article .article-box ul li {
+  height: 70px;
+  line-height: 70px;
+  width: 100%;
+  position: relative;
+}
+#page1 #main .article .article-box ul li a {
+  display: block;
+  font-size: 24px;
+  font-weight: 600;
+  transition: 0.2s;
+}
+#page1 #main .article .article-box ul li:nth-child(2) a{
+  color: #588e47;
+  border-bottom: -8px solid #588e47;
+}
+#page1 #main .article .article-box ul li:nth-child(2) span {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  display: block;
+  border-bottom: #588e47 8px solid;
+}
+#page1 #main .article .article-box ul li a:hover {
+  color: #588e47;
+}
+#page1 #main .article .article-box ul li:hover span {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  display: block;
+  border-bottom: 8px solid #588e47;
+  height: -8px;
+  transition: 0.2s;
+}
+
+#page2 {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+#page2 #title {
+  text-align: center;
+  margin-top: 82px;
+}
+
+#page2 #title .title-box > strong{
+  color: #588e47;
+  font-weight: 600;
+  font-size: 18px;
+}
+#page2 #title .title-box > p {
+  margin-top: 36px;
+  font-size: 18px; 
+  font-weight: 600;
+  line-height: 30px;
+}
+
+#page2 #title .title-box .title1,
+#page2 #title .title-box .title2 {
+  display: block;
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 120px;
+}
+#page2 #title .title-box .title2 {
+  display: none;
+}
+
+
+#page3 {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+#page3 .background {}
+#page3 .background .bg-image{
+  width: 100%;
+  position: relative;
+} 
+#page3 .background .bg-image img{
+  display: block;
+  max-width: 66%;
+  background-size: cover;
+  height: 100%;
+  margin-bottom: 126px;
+}
+
+#page3 .background .bg-image .text-box,
+#page3 .background .bg-image2 .text-box2 {
+  box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.3);
+}
+
+#page3 .background .bg-image .text-box {
+  position: absolute;
+  bottom: -45px;
+  right: 0;
+  width: 500px;
+  height: 240px;
+  border-top: 4px solid #588e47;
+  border-left: 1.5px solid #588e47;
+  border-right: 1.5px solid #588e47;
+  border-bottom: 1.5px solid #588e47;
+  box-sizing: border-box;
+  background-color: #fff;
+  padding-left: 40px;
+}
+#page3 .background .bg-image .text-box h3 {
+  font-size: 24px;
+  color: #588e47;
+  padding-bottom: 42px;
+  padding-top: 56px;
+}
+#page3 .background .bg-image .text-box p{
+  line-height: 26px;
+}
+
+#page3 .background .bg-image2{
+  position: relative;
+} 
+#page3 .background .bg-image2:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+#page3 .background .bg-image2 img{
+  display: block;
+  max-width: 66%;
+  background-size: cover;
+  height: 100%;
+  margin-bottom: 126px;
+  float: right;
+}
+#page3 .background .bg-image2 .text-box2 {
+  position: absolute;
+  bottom: 170px;
+  left: 0;
+  width: 500px;
+  height: 240px;
+  border-top: 4px solid #588e47;
+  border-left: 1.5px solid #588e47;
+  border-right: 1.5px solid #588e47;
+  border-bottom: 1.5px solid #588e47;
+  box-sizing: border-box;
+  background-color: #fff;
+  padding-left: 40px;
+}
+#page3 .background .bg-image2 .text-box2 h3{
+  font-size: 24px; 
+  color: #588e47;
+  padding-bottom: 42px;
+  padding-top: 56px;
+}
+#page3 .background .bg-image2 .text-box2 p{
+  line-height: 26px;
+}
+
+
+
+@media only screen and (max-width:1024px) {
+  #page2 #title .title-box .title1 {
+  display: none;
+  }
+  
+  #page2 #title .title-box .title2,
+  #page2 #title .title-box > P {
+  display: block;
+  }
+  
+  #page3 .background .bg-image img,
+  #page3 .background .bg-image2 img {
+    margin: 0 auto;
+    max-width: 100%;
+    margin-bottom: 320px;
+  }
+
+  #page3 .background .bg-image2 img {
+    float: none;
+  }
+  #page3 .background .bg-image .text-box,
+  #page3 .background .bg-image2 .text-box2 {
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -260px;
+    width: 100%;
+    padding: 0 20px;
+    text-align: center;
+  }
+  #page3 .background .bg-image .text-box > h3,
+  #page3 .background .bg-image2 .text-box2 > h3 {
+    font-size: 24px;
+    color: #588e47;
+    padding-bottom: 42px;
+    padding-top: 56px;
+    font-size: 1.25em;
+  }
+  #page3 .background .bg-image:last-child > img {
+    margin-bottom: 400px;
+  }
+}
+
+@media only screen and (max-width:600px) {
+  #page3 .background .bg-image .text-box > h3,
+  #page3 .background .bg-image2 .text-box2 > h3 {
+    padding-bottom: 42px;
+    padding-top: 30px;
+  }
+}
+
+@media only screen and (max-width:400px) {
+  #page2 #title .title-box .title2, #page2 #title .title-box > P {
+    font-size: 14px;
+  }
+  #page3 .background .bg-image .text-box > h3,
+  #page3 .background .bg-image2 .text-box2 > h3 {
+    font-size: 18px;
+  }
+  #page3 .background .bg-image .text-box > p,
+  #page3 .background .bg-image2 .text-box2 > p {
+    font-size: 14px;
+  }
+}
+
+
+/* page1 start */
+
+@media only screen and (max-width:1350px) {
+  #page1 .article {
+    display: none;
+  }
+  #page1 #main .main-box {
+    box-shadow: 0 2px 15px 2px rgba(0,0,0,0.3);
+  }
+}
+
+@media only screen and (max-width:1024px) {
+  #page1 #main .main-box {
+    height: 360px;
+  }
+  #page1 #main .main-box > p {
+    left: 10%;
+    top: 123px;
+  }
+  #page1 #main .main-box .box > b {
+    margin-top: -10px;
+  }
+}
+
+/* page1 end */

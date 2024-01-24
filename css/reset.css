@@ -1,0 +1,36 @@
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, table, dl, dd {
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	font-size: 16px;
+}
+a {
+	text-decoration: none;
+	color: #3f3f3f;
+}
+ul, ol {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+	border: none;
+}
+p, b, span, div, body {
+    color: #3f3f3f;
+}
+body {
+    line-height: 1;
+    font-family: "Noto Sans KR";
+    font-size: 1em;
+    font-family: 'Noto Sans KR', sans-serif;
+    word-break: keep-all;
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@font-face {
+    font-family: 'TTTtangsbudaejjigaeB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/TTTtangsbudaejjigaeB.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}

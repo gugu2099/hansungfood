@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_레이어_2" data-name="레이어 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 412 411.87">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #3f3f3f;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 12px;
+      }
+    </style>
+  </defs>
+  <g id="_레이어_1-2" data-name="레이어 1">
+    <g>
+      <polygon class="cls-1" points="406 121.47 385.25 157.41 359.51 142.54 206 53.91 52.49 142.54 26.75 157.41 6 121.47 52.49 94.63 206 6 359.51 94.63 406 121.47"/>
+      <polygon class="cls-1" points="359.51 142.54 359.51 405.87 300.55 405.87 300.55 215.76 318.85 215.76 318.85 181.19 93.16 181.19 93.16 215.76 111.46 215.76 111.46 336.74 77.18 336.74 77.18 267.61 52.49 267.61 52.49 142.54 206 53.91 359.51 142.54"/>
+      <rect class="cls-1" x="93.16" y="181.19" width="225.69" height="34.57"/>
+      <rect class="cls-1" x="111.46" y="215.76" width="189.09" height="35.58"/>
+      <polygon class="cls-1" points="300.55 283.87 300.55 405.87 146.31 405.87 146.31 336.74 111.46 336.74 111.46 283.87 300.55 283.87"/>
+      <line class="cls-1" x1="206" y1="300.84" x2="206" y2="283.87"/>
+      <rect class="cls-1" x="111.46" y="251.34" width="189.09" height="32.53"/>
+      <g>
+        <g>
+          <rect class="cls-1" x="8.05" y="267.61" width="69.13" height="69.13"/>
+          <line class="cls-1" x1="42.61" y1="267.61" x2="42.61" y2="278.24"/>
+        </g>
+        <g>
+          <rect class="cls-1" x="8.05" y="336.74" width="69.13" height="69.13"/>
+          <line class="cls-1" x1="42.61" y1="336.74" x2="42.61" y2="347.37"/>
+        </g>
+        <g>
+          <rect class="cls-1" x="77.18" y="336.74" width="69.13" height="69.13"/>
+          <line class="cls-1" x1="111.74" y1="336.74" x2="111.74" y2="347.37"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
