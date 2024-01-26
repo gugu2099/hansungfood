@@ -63,12 +63,7 @@ body {
 }
 
 #gnb .aside h1 a img {
-    display: block;
-    position: absolute;
-    width: 130px;
-    top: 54%;
-    transform: translateY(-50%);
-    padding-left: 20px;
+    width: 160px;
 }
 
 #gnb .aside .a-group {
@@ -89,10 +84,10 @@ body {
     text-align: center;
     position: relative;
 }
-#slider input{
+#slider > input{
     display: none;
 }
-#slider label{
+#slider > label{
     display: block;
     width: 40px;
     position: fixed;
@@ -100,7 +95,7 @@ body {
     right: 20px;
     transition: 0.6s;
 }
-#slider label span{
+#slider > label > span{
     display: block;
     background-color: #333;
     height: 4px;
@@ -108,14 +103,14 @@ body {
     transition: 0.6s;
 }
 
-#slider input:checked + label span:nth-child(1){
+#slider > input:checked + label span:nth-child(1){
     transform: rotate(45deg);
     margin: 24px 0 0 0;
 }
-#slider input:checked + label span:nth-child(2){
+#slider > input:checked + label span:nth-child(2){
     display: none;
 }
-#slider input:checked + label span:nth-child(3){
+#slider > input:checked + label span:nth-child(3){
     transform: rotate(-45deg);
     margin: -5px 0 0 0;
 }
@@ -128,11 +123,11 @@ body {
     right: -200px;
     transition: 0.6s;
 }
-#slider input:checked ~ nav{
+#slider > input:checked ~ nav{
     right: 0;
 }
 
-#slider input:checked + label{
+#slider > input:checked + label{
     right: 202px;
 }
 
@@ -257,6 +252,42 @@ body {
     height: 230px;
 }
 
+/* slider side nav */
+
+#slider > .nav-list .nav-logo {
+    background-color: #fff;
+}
+#slider > .nav-list .nav-logo img {
+    width: 160px;
+    padding-top: 33px;
+}
+#slider > .nav-list > .depth-01 {
+    background-color: #fff;
+}
+#slider > .nav-list > .depth-01 > input {
+    display: none;
+}
+#slider > .nav-list > .depth-01 > .top4 > a,
+#slider > .nav-list > .depth-01 > label {
+    color: #3f3f3f;
+    font-weight: 700;
+    line-height: 50px;
+    display: block;
+    border: 1px solid #ccc;
+}
+
+#slider > .nav-list > .depth-01 > #side:checked ~ .top1 > li,
+#slider > .nav-list > .depth-01 > #side1:checked ~ .top2 > li,
+#slider > .nav-list > .depth-01 > #side2:checked ~ .top3 > li {
+    display: block;
+}
+#slider > .nav-list > .depth-01 > ul > li {
+    display: none;
+    text-align: left;
+    padding-left: 30px;
+    border: 1px solid #ccc;
+}
+
 @media only screen and (max-width: 1024px) {
     #gnb {
         height: 80px;
@@ -273,11 +304,11 @@ body {
         transform: translateY(-50%);
         padding-left: 20px;
     }
-    #slider > nav > .nav-logo > a > img {
+    /* #slider > nav > .nav-logo > a > img {
         width: 150px;
         top: 22%;
         left: 4%;
-    }
+    } */
     #gnb .aside .a-group{
         display: none;
     }
