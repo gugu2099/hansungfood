@@ -286,9 +286,10 @@ body {
 #slider > .nav-list > .depth-01 > #side1:checked ~ .top2 > li,
 #slider > .nav-list > .depth-01 > #side2:checked ~ .top3 > li {
     display: block;
-    transition: 0.6s;
 }
-#slider > .nav-list > .depth-01 > ul > li {
+#slider > .nav-list > .depth-01 > .top1 > li,
+#slider > .nav-list > .depth-01 > .top2 > li,
+#slider > .nav-list > .depth-01 > .top3 > li {
     display: none;
     border: 1px solid #ccc;
 }
@@ -312,7 +313,6 @@ body {
         transform: translateY(-50%);
         padding-left: 20px;
     }
-
     #gnb .aside .a-group{
         display: none;
     }
