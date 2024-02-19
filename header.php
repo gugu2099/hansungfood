@@ -29,34 +29,34 @@
                 </ul>
                 <ul class="aside-02">
                     <li>
-                      <a href="subpage1/index.html">기업소개</a>
+                      <a href="company/index.php">기업소개</a>
                       <ul class="aside-03">
-                        <li><a href="subpage1/index.html">한성푸드</a></li>
-                        <li><a href="subpage2/index.html">CEO 인사말</a></li>
-                        <li><a href="subpage3/index.html">연혁</a></li>
-                        <li><a href="subpage4/index.html">인증현황</a></li>
-                        <li><a href="subpage5/index.html">오시는 길</a></li>
+                        <li><a href="company/index.php">한성푸드</a></li>
+                        <li><a href="ceo_message/index.php">CEO 인사말</a></li>
+                        <li><a href="history/index.php">연혁</a></li>
+                        <li><a href="certifications/index.php">인증현황</a></li>
+                        <li><a href="location/index.php">오시는 길</a></li>
                       </ul>
                     </li>
                     <li>
-                      <a href="subpage10/index.html">공장소개</a>
+                      <a href="factory/index.php">공장소개</a>
                       <ul class="aside-03">
-                        <li><a href="subpage10/index.html">제 1 & 2공장</a></li>
-                        <li><a href="subpage11/index.html">Capacity</a></li>
-                        <li><a href="subpage12/index.html">품질관리</a></li>
+                        <li><a href="factory/index.php">제 1 & 2공장</a></li>
+                        <li><a href="capacity/index.php">Capacity</a></li>
+                        <li><a href="quality/index.php">품질관리</a></li>
                         <!-- <li><a href="#">소메뉴</a></li> -->
                       </ul>
                     </li>
                     <li>
-                      <a href="subpage20/index.html">제품소개</a>
+                      <a href="products/index.php">제품소개</a>
                       <ul class="aside-03">
-                        <li><a href="subpage20/index.html">액상차</a></li>
-                        <li><a href="subpage21/index.html">과즙·당절임</a></li>
+                        <li><a href="products/index.php">액상차</a></li>
+                        <li><a href="juice/index.php">과즙·당절임</a></li>
                         <li><a href="">기타제품</a></li>
                         <!-- <li><a href="#">소메뉴</a></li> -->
                       </ul>
                     </li>
-                    <li><a href="subpage30/index.html">상담문의</a></li>
+                    <li><a href="contact/index.php">상담문의</a></li>
                 </ul>
                 <div class="nav-bg"></div>
               </nav>
