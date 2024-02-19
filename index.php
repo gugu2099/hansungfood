@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 
 <head>
     <title>HANSUNGFOOD</title>
@@ -17,7 +17,7 @@
 
     <!-- header -->
     <!-- <div data-include-path="header.html"></div> -->
-    <?php include "header.html"; ?>
+    <?php include "header.php"; ?>
     <!-- //header -->
 
     <div class="swiper mySwiper first">
