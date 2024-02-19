@@ -96,7 +96,7 @@ html,
   font-weight: 600;
   transition: 0.2s;
 }
-#page1 #main .article .article-box ul li a i {
+#page1 #main .article .article-box ul li a strong {
   margin-left: 10px;
   font-size: 20px;
 }
