@@ -16,7 +16,8 @@
 <body>
 
     <!-- header -->
-    <div data-include-path="header.html"></div>
+    <!-- <div data-include-path="header.html"></div> -->
+    <?php include "header.html"; ?>
     <!-- //header -->
 
     <div class="swiper mySwiper first">
