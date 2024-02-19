@@ -17,7 +17,7 @@
 
     <!-- header -->
     <!-- <div data-include-path="header.html"></div> -->
-    <?php include "header.php" ?>
+    <?php include "header.php"; ?>
     <!-- //header -->
 
     <div class="swiper mySwiper first">
@@ -372,7 +372,8 @@
 
 
     <!-- footer -->
-    <div data-include-path="footer.html"></div>
+    <!-- <div data-include-path="footer.html"></div> -->
+    <?php include "footer.php"; ?>
     <!-- //footer -->
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
