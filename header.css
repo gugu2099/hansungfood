@@ -49,21 +49,23 @@ body {
 #gnb .aside {
     max-width: 1280px;
     margin: 0 auto;
+    height: 80px;
     display: flex;
     justify-content: space-between;
 }
 
 #gnb .aside h1 {
-    height: 153px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #gnb .aside h1 a {
     display: block;
-    height: 153px;
 }
 
 #gnb .aside h1 a img {
-    width: 160px;
+    width: 220px;
 }
 
 #gnb .aside .a-group {
